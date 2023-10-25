@@ -30,14 +30,14 @@ canvas {
 } */
 
 
-section {
-  /* grid-column: 2 / 8;
+/* section {
+  grid-column: 2 / 8;
   padding: 1rem;
   background: var(--dark-bg);
   font-size: 1.25rem;
-  line-height: 1.5; */
+  line-height: 1.5;
   margin-bottom: var(--spacing);
-}
+}  */
 
 
 /* 
