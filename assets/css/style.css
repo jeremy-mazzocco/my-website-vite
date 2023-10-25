@@ -6,13 +6,11 @@ body {
 }
 
 a {
-  color: #6f9c5c;
   text-decoration: none;
 }
 
-a:hover {
-  color: #067ded;
-  text-decoration: none;
+i {
+  color: green;
 }
 
 img {
@@ -29,7 +27,7 @@ img {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #6f9c5c;
+  background: grey;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -43,7 +41,7 @@ img {
 }
 
 .back-to-top:hover {
-  background: #6f9c5c;
+  background: grey;
   color: #fff;
 }
 
@@ -71,7 +69,7 @@ img {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #6f9c5c;
+  border: 6px solid grey;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -154,7 +152,7 @@ img {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #6f9c5c;
+  color: grey;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -175,7 +173,7 @@ img {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #6f9c5c;
+  color: grey;
 }
 
 @media (min-width: 992px) {
@@ -197,7 +195,7 @@ img {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #6f9c5c;
+  background: grey;
 }
 
 .nav-menu a:hover span,
@@ -251,7 +249,7 @@ img {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #6f9c5c;
+  background-color: grey;
 }
 
 /*--------------------------------------------------------------
@@ -285,36 +283,40 @@ img {
 
 #hero h1 {
   font-family: monospace;
-
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  line-height: 5rem;
+  margin-left: 11%;
+  margin-top: 12%;
 }
-
-/* #hellooo {
-  color: rgb(193, 49, 49);
-  display: inline-block;
-
-} */
 
 #hero .links {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 2rem;
+  font-size: 1.4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 2rem;
 }
 
+.links a {
+  color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-weight: 600;
+  border-bottom: 3px solid green;
+}
+
+.links a:hover {
+  background-color: green;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
 
 @media (max-width: 992px) {
   #hero {
     text-align: center;
-  }
-
-  #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
-  }
-
-  #hero p {
-    margin-top: 10px;
-    font-size: 20px;
-    line-height: 24px;
   }
 }
 
@@ -356,7 +358,7 @@ img {
   display: block;
   width: 40px;
   height: 3px;
-  background: #6f9c5c;
+  background: grey;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -397,7 +399,7 @@ img {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #6f9c5c;
+  color: grey;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -543,11 +545,11 @@ img {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #6f9c5c;
+  border: 1px solid grey;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #6f9c5c;
+  background-color: grey;
 }
 
 .portfolio-details .portfolio-info {
@@ -657,11 +659,11 @@ img {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #6f9c5c;
+  border: 1px solid grey;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #6f9c5c;
+  background-color: grey;
 }
 
 @media (min-width: 992px) {
@@ -685,7 +687,7 @@ img {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #6f9c5c;
+  border-left: 2px solid grey;
   position: relative;
 }
 
@@ -694,7 +696,7 @@ img {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #6f9c5c;
+  color: grey;
   margin-bottom: 10px;
 }
 
@@ -728,7 +730,7 @@ img {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #6f9c5c;
+  border: 2px solid grey;
 } */
 
 /*--------------------------------------------------------------
