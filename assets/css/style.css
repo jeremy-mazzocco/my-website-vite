@@ -380,6 +380,11 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 
+.fa-circle-info:hover {
+  color: grey;
+  transition: 0.3s;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
