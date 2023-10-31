@@ -609,6 +609,10 @@ section {
   object-fit: contain;
 }
 
+.swiper-static {
+  margin-top: 3rem;
+  height: 500px;
+}
 
 
 /*--------------------------------------------------------------
